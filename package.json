@@ -4,12 +4,21 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node inquirer.js",
+    "dev": "nodemon inquirer.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "chalk-pipe": "^5.0.0",
+    "inquirer": "^8.0.0",
+    "inquirer-datepicker": "^2.0.0",
+    "lodash": "^4.17.21",
+    "pm2": "^4.5.6",
     "web3": "^1.3.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
   }
 }
